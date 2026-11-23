@@ -4,9 +4,7 @@
 
 A Microsoft Windows® USB installation media preparer for GNU+Linux
 
-[![Continuous Integration(CI) Status Badge](https://cloud.drone.io/api/badges/WoeUSB/WoeUSB/status.svg "Continuous Integration(CI) Status")](https://cloud.drone.io/WoeUSB/WoeUSB) [![REUSE status](https://api.reuse.software/badge/github.com/WoeUSB/WoeUSB)](https://api.reuse.software/info/github.com/WoeUSB/WoeUSB)
-
-![WoeUSB logo](share/woeusb/woeusb.svg "Logo of WoeUSB")
+![WoeUSB logo](https://github.com/WoeUSB/WoeUSB/blob/master/share/woeusb/woeusb.svg "Logo of WoeUSB")
 
 ## Features
 
@@ -92,39 +90,3 @@ The following are the environment variables that may change WoeUSB's runtime beh
 | Variable name | Usage |
 | :-: | :-- |
 | RUFUS_UEFI_NTFS_VERSION | The release tag/revision of [the Rufus source tree](https://github.com/pbatard/rufus) to fetch the UEFI:NTFS image from, will use a tested version by default |
-
-## License
-
-WoeUSB is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-WoeUSB is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with WoeUSB.  If not, see <http://www.gnu.org/licenses/>.
-
-### Identify _otherwise specified_ licenses applicable to a certain product/development asset
-
-If the asset is in plaintext format:
-
-1. Check the `SPDX-License-Identifier` tag in the file's header
-1. Check the [.reuse/dep5](.reuse/dep5) file from the source tree/release tree directory
-
-If the asset is not in plaintext format:
-
-Check the [.reuse/dep5](.reuse/dep5) file from the source tree/release tree directory
-
-## Credits
-
-* WoeUSB is a fork of [Colin GILLE's WinUSB project](https://web.archive.org/web/20210228120035/http://en.congelli.eu/prog_info_winusb.html), without standing on their shoulders WoeUSB will not exist in the first place
-* We would like to thank [@slacka](https://github.com/slacka) for the maintenance of the WoeUSB project [when it was hosted under their namespace](https://github.com/slacka/WoeUSB), they have been extremely helpful and cooperative in many conversations that contributed in WoeUSB's improvement
-* We would like to thank [Pete Batard](https://pete.akeo.ie/) for their splendid work on the [UEFI:NTFS](https://github.com/pbatard/uefi-ntfs) UEFI bootloader, which is included in WoeUSB to enable the NTFS filesystem support
-* Source code contributors on GitHub:
-    + [Contributors to WoeUSB/WoeUSB](https://github.com/WoeUSB/WoeUSB/graphs/contributors)
-    + [Contributors to slacka/WoeUSB](https://github.com/slacka/WoeUSB/graphs/contributors)
-* Everyone who have contributed to WoeUSB in one way or another but we're unable to enumerate them due to our ignorance
