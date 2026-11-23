@@ -64,18 +64,6 @@ Without the following dependencies WoeUSB will still able to run, but some funct
 * [GNU gettext](https://www.gnu.org/software/gettext/)  
   For supporting message internationalization(I18N)
 
-## Installation
-
-To be addressed.  For now refer [Run from source](#run-from-source).
-
-## Run from source
-
-WoeUSB is a program that can be run without installation(excluding its [dependencies](#dependencies)):
-
-1. Download the program(woeusb-N.N.N.bash) from [the Releases page](https://github.com/WoeUSB/WoeUSB/releases)
-1. Fix the missing executable file permission (`chmod +x path/to/woeusb-N.N.N.bash`)
-1. Launch a terminal application and run the program via the appropriate path(`sudo path/to/woeusb-N.N.N.bash --help`)
-
 ## Usage
 
 ```example
