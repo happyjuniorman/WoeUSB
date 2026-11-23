@@ -35,7 +35,7 @@ init(){
         flag_print_about=false
 
     local -r \
-        application_site_url=https://github.com/WoeUSB/WoeUSB \
+        application_site_url=https://github.com/happyjuniorman/WoeUSB \
         application_copyright_declaration="Copyright (c) 2026 happyjuniorman" \
         application_copyright_notice="MIT License"
     local install_mode
