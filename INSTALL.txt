@@ -1,1 +1,3 @@
-sudo cp woeusb /usr/bin
+cd /usr/bin
+sudo wget https://raw.githubusercontent.com/happyjuniorman/WoeUSB/refs/heads/master/sbin/woeusb
+sudo chmod +x woeusb
