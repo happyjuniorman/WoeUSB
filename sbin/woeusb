@@ -4,10 +4,6 @@
 # This file is part of WoeUSB.
 # https://github.com/WoeUSB/WoeUSB
 #
-# Copyright © 2013 Colin GILLE / congelli501
-# Copyright © 2020 slacka et. al.
-# Copyright © 2021 WoeUSB project contributors
-# SPDX-License-Identifier: GPL-3.0-or-later
 #
 # Compatibility notes:
 # * realpath: Use `--strip` instead of `--no-symlinks` for realpath(1) for compatibility of Ubuntu 14.04(EoL: April 2019)
@@ -40,8 +36,8 @@ init(){
 
     local -r \
         application_site_url=https://github.com/WoeUSB/WoeUSB \
-        application_copyright_declaration="Copyright © Colin GILLE / congelli501 2013\\nCopyright © slacka et.al. 2020" \
-        application_copyright_notice="${application_name} is free software licensed under the GNU General Public License version 3(or any later version of your preference) that gives you THE 4 ESSENTIAL FREEDOMS\\nhttps://www.gnu.org/philosophy/"
+        application_copyright_declaration="Copyright (c) 2026 happyjuniorman" \
+        application_copyright_notice="MIT License"
     local install_mode
 
     # source_media may be an optical disk drive or a disk image
