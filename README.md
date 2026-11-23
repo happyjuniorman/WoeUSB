@@ -80,6 +80,11 @@ WoeUSB is a program that can be run without installation(excluding its [dependen
 
 ## Usage
 
+```example
+woeusb --device --skip-legacy-booting-support-flag Windows7_x64.iso /dev/sdX
+woeusb --device --skip-legacy-booting-support-flag /dev/sr0 /dev/sdX
+```
+
 ### Environment variables
 
 The following are the environment variables that may change WoeUSB's runtime behavior:
